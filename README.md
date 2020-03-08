@@ -19,7 +19,7 @@ Technologies used:
 
 Quick start options:
 
-- Clone the repo: `git clone https://`.
+- Clone the repo: `git clone https://github.com/agustinmorelle01/oculow-demo.git`.
 - [Download from Github](https://github.com/creativetimofficial/vue-now-ui-kit/archive/master.zip).
 - Run `npm install` or `yarn install`
 - Run `npm run serve` to start a local development server
