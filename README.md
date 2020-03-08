@@ -4,7 +4,7 @@
 ![version](https://img.shields.io/badge/version-1.0.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 
-**[Oculow DEMO]** is a website with testing purposes, the idea is to
+**Oculow DEMO** is a website with testing purposes, the idea is to
 use this page on our SDK input.
 
 Technologies used: 
@@ -20,7 +20,7 @@ Technologies used:
 Quick start options:
 
 - Clone the repo: `git clone https://github.com/agustinmorelle01/oculow-demo.git`.
-- [Download from Github](https://github.com/creativetimofficial/vue-now-ui-kit/archive/master.zip).
+- [Download from Github](https://github.com/agustinmorelle01/oculow-demo/archive/master.zip).
 - Run `npm install` or `yarn install`
 - Run `npm run serve` to start a local development server
 
@@ -32,5 +32,5 @@ The documentation for Oculow is hosted at our [website](https://www.oculow.com/d
 
 ## Licensing
 
-- Copyright 2018 Creative Tim (https://www.creative-tim.com)
-- Licensed under MIT (https://github.com/creativetimofficial/vue-now-ui-kit/blob/master/LICENSE.md)
+- Copyright 2020 Oculow (https://www.oculow.com)
+- Template Engine Licensed under MIT (https://github.com/creativetimofficial/vue-now-ui-kit/blob/master/LICENSE.md)
