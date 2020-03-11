@@ -19,6 +19,9 @@ import App from './App.vue';
 import router from './router';
 import NowUiKit from './plugins/now-ui-kit';
 
+import SweetModal from 'sweet-modal-vue/src/plugin.js'
+Vue.use(SweetModal)
+
 Vue.config.productionTip = false;
 
 Vue.use(NowUiKit);

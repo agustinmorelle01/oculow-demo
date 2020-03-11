@@ -1,7 +1,8 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Index from './pages/Index.vue';
-import Demo from './pages/demo.vue';
+import Blog from './pages/blog.vue';
+import Shopping from './pages/shopping.vue';
 import MainNavbar from './layout/MainNavbar.vue';
 import MainFooter from './layout/MainFooter.vue';
 
@@ -20,14 +21,24 @@ export default new Router({
       }
     },
     {
-      path: '/demo',
-      name: 'demo',
-      components: { default: Demo, header: MainNavbar, footer: MainFooter },
+      path: '/blog',
+      name: 'blog',
+      components: { default: Blog, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: 'black' }
+      }
+    },
+    {
+      path: '/shopping',
+      name: 'shopping',
+      components: { default: Shopping, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: 'black' }
       }
     }
+    
   ],
   scrollBehavior: to => {
     if (to.hash) {

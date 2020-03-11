@@ -7,8 +7,8 @@
       >
       </parallax>
       <div class="content-center">
-        <div class="container">
-          <h1 class="title">Oculow DEMO Example</h1>
+        <div class="container brand">
+          <img class="n-logo" src="img/logo.png" alt="logo"/> Blog DEMO
         </div>
       </div>
     </div>
@@ -136,13 +136,10 @@ export default {
   },
   data() {
     return {
-      form: {
-        firstName: '',
-        email: '',
-        message: ''
-      }
     };
   }
 };
 </script>
-<style></style>
+<style>
+
+</style>

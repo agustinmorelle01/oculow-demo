@@ -9,10 +9,11 @@
       </parallax>
       <div class="container">
         <div class="content-center brand">
-          <img class="n-logo" src="img/logo.png" alt="" />
+          <img class="n-logo" src="img/logo.png" alt="logo" />
           <h1 class="h1-seo">Create SDK DEMO</h1>
           <h3>Efficiency In Visual Regression.</h3>
-          <n-button class="btn btn-primary" @click="startDemo">START</n-button>
+          <n-button class="btn btn-primary" @click="startBlogDemo">START BLOG DEMO</n-button> &nbsp;
+          <n-button class="btn btn-default" @click="startShoppingDemo">START SHOPPING DEMO</n-button>
         </div>
       </div>
     </div>
@@ -52,8 +53,11 @@ export default {
     DownloadSection
   },
   methods: {
-    startDemo(){
-      this.$router.replace({ path: "/demo"})
+    startBlogDemo(){
+      this.$router.replace({ path: "/blog"})
+    },
+    startShoppingDemo(){
+      this.$router.replace({ path: "/shopping"})
     }
   }
 };
