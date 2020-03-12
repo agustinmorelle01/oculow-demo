@@ -519,3 +519,7 @@
 .overlap-margin-left{
   margin-left: -100px;
 }
+
+.overlap-margin-left-max{
+  margin-left: -10%!important;
+}

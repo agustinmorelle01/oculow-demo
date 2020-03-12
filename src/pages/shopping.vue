@@ -17,7 +17,7 @@
     <div class="section">
       <div class="container center">
         <div class="row center">
-          <div class="product card col-xl-2" style="width: 18rem;" :key="index" v-for="(product, index) in products">
+          <div :class="product.cardCustomClass" class="product card col-xl-2" style="width: 18rem;" :key="index" v-for="(product, index) in products">
             <img :src="product.img" class="card-img-top" :alt="product.name">
             <div class="card-body">
               <h5 class="card-title">{{product.name}}</h5>
@@ -63,12 +63,12 @@ export default {
         {"name": "OnePlus 7", "price": 540, "img": `${IMG_PRODUCTS_PATH}oneplus-7.jpg`},
         {"name": "OnePlus 7T", "price": 600, "img": `${IMG_PRODUCTS_PATH}oneplus-7t.jpg`},
         {"name": "OnePlus 7T PRO", "price": 700, "img": `${IMG_PRODUCTS_PATH}oneplus-7t-pro.jpg`},
-        {"name": "OnePlus 7T PRO McLaren", "price": 890, "img": `${IMG_PRODUCTS_PATH}oneplus-7t-pro-5g-mclaren.jpg`},
+        {"name": "OnePlus 7T PRO McLaren", "price": 890, "img": `${IMG_PRODUCTS_PATH}oneplus-7t-pro-5g-mclaren.jpg`, "cardCustomClass": "overlap-margin-left-max"},
         {"name": "Google Pixel 4", "price": 900, "img": `${IMG_PRODUCTS_PATH}google-pixel-4.jpg`, "customClass": "overlap"},
         {"name": "Apple Watch 4", "price": 270, "img": `${IMG_PRODUCTS_PATH}apple-watch-series-4-steel.jpg`, "customClass": "overlap-margin-left"},
         {"name": "iPhone 6S Plus", "price": 150, "img": `${IMG_PRODUCTS_PATH}apple-iphone-6s-plus.jpg`},
         {"name": "iPhone 7 Plus", "price": 250, "img": `${IMG_PRODUCTS_PATH}apple-iphone-7-plus-r2.jpg`},
-        {"name": "iPhone X", "price": 800, "img": `${IMG_PRODUCTS_PATH}apple-iphone-x.jpg`},
+        {"name": "iPhone X", "price": 800, "img": `${IMG_PRODUCTS_PATH}apple-iphone-x.jpg`, "cardCustomClass": "overlap-margin-left-max"},
         {"name": "iPhone 11 PRO", "price": 990, "img": `${IMG_PRODUCTS_PATH}apple-iphone-11-pro.jpg`}
       ],
       shoppingCart: [],
