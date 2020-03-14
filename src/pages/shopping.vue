@@ -58,7 +58,7 @@ export default {
         {"name": "OnePlus Two", "price": 150, "img": `${IMG_PRODUCTS_PATH}oneplus-two.jpg`},
         {"name": "OnePlus 3T", "price": 150, "img": `${IMG_PRODUCTS_PATH}oneplus-3t.jpg`},
         {"name": "OnePlus 5T", "price": 200, "img": `${IMG_PRODUCTS_PATH}oneplus-5t.jpg`},
-        {"name": "OnePlus 6T Thunder Purple", "price": 300, "img": `${IMG_PRODUCTS_PATH}oneplus-6t-thunder-purple.jpg`},
+        {"name": "OnePlus 6T Thunder Purple", "price": 300, "img": `${IMG_PRODUCTS_PATH}oneplus-6t-thunder-purple.jpg`, "cardCustomClass": "overlap-margin-left-max"},
         {"name": "OnePlus 6T McLaren", "price": 540, "img": `${IMG_PRODUCTS_PATH}oneplus-6t-mclarenjpg.jpg`},
         {"name": "OnePlus 7", "price": 540, "img": `${IMG_PRODUCTS_PATH}oneplus-7.jpg`},
         {"name": "OnePlus 7T", "price": 600, "img": `${IMG_PRODUCTS_PATH}oneplus-7t.jpg`},
